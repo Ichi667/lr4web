@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>How do animals live?</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="wrap header__bar">
+      <a class="logo" href="#">logo</a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="nav" id="nav" aria-hidden="true">
+      <div class="nav__backdrop" data-close="true"></div>
+      <div class="nav__panel" role="dialog" aria-label="Site menu">
+        <button class="nav__close" aria-label="Close menu" data-close="true">×</button>
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#habitats">Habitats</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" aria-label="hero image">
+    <img src="assets/hero.jpg" alt="Wildlife landscape with animals"/>
+  </section>
+
+  <main class="wrap">
+    <section class="intro" id="about">
+      <h1>How do animals live?</h1>
+      <p>
+        Learn how animals adapt, migrate and survive in different habitats.
+        From daily routines to long journeys, nature is full of smart tricks.
+      </p>
+    </section>
+
+    <section class="services" aria-label="service cards" id="projects">
+      <a class="card" href="#" aria-label="Habitat study" id="habitats">
+        <div class="card__icon"><img src="assets/icons/habitat.svg" alt="" /></div>
+        <div class="card__title">Habitat study</div>
+      </a>
+
+      <a class="card" href="#" aria-label="Health check">
+        <div class="card__icon"><img src="assets/icons/care.svg" alt="" /></div>
+        <div class="card__title">Health check</div>
+      </a>
+
+      <a class="card" href="#" aria-label="Conservation work">
+        <div class="card__icon"><img src="assets/icons/paw.svg" alt="" /></div>
+        <div class="card__title">Conservation work</div>
+      </a>
+
+      <a class="card" href="#" aria-label="Tracking and monitoring" id="contacts">
+        <div class="card__icon"><img src="assets/icons/tracking.svg" alt="" /></div>
+        <div class="card__title">Tracking &amp; monitoring</div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__text">
+     labaratory vork 4
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
